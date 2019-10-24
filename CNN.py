@@ -3,26 +3,6 @@ import pandas as pd
 import numpy as np
 import scipy.misc
 import os
-from random import shuffle
-import tensorflow as tf
-import matplotlib.image as mpimg
-import tflearn
-from tflearn.layers.conv import conv_2d, max_pool_2d
-from tflearn.layers.core import input_data, dropout, fully_connected
-from tflearn.layers.estimator import regression
-from PIL import Image, ImageDraw, ImageFont
-
-TRAIN_DIR = 'images'
-TEST_DIR = 'Timages'
-IMG_SIZE =150
-LR = 0.0001
-MODEL_NAME = 'WeaponsDetection-cnn'
-
-import cv2
-import pandas as pd
-import numpy as np
-import scipy.misc
-import os
 import matplotlib.image as mpimg
 from random import shuffle
 import matplotlib.pyplot as plt
